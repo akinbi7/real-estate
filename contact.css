@@ -1,0 +1,416 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", serif;
+}
+
+body{
+    background: white;
+}
+
+
+
+.navbar-links a{
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+    transition: all .5s ease-in-out;
+}
+
+.navbar-links a:hover{
+    color: orangered;
+}
+
+i{
+    font-size: 15px;
+}
+
+/*
+About section
+*/
+
+.about-section{
+    margin-top: 40px;
+}
+
+
+.about-box{
+    background: rgba(211, 211, 211, 0.568);
+    height: 200px;
+    width: 100%;
+}
+
+.about-box h1{
+    font-weight: 900;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+.about-box nav{
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+.about-box nav a{
+    text-decoration: none;
+    transition: all .55s ease-in-out;
+}
+
+.about-box nav a:hover{
+      color: orangered;
+}
+
+.about-box nav i{
+    color: orangered;
+}
+
+.about-section-2{
+    margin-top: 100px;
+}
+
+.about-span span{
+    padding: 5px 15px;
+    background-color: rgba(255, 68, 0, 0.226);
+    border-radius: 50px;
+    color: orangered;
+    font-weight: 500;
+}
+
+.about-text h1{
+    font-weight: 900;
+    margin-top: 10px;
+    max-width: 600px;
+    margin-left: 40px;
+}
+
+.about-text p{
+    color: rgb(122, 117, 117);
+    margin-left: 40px;
+    max-width: 530px;
+}
+
+.about-text-box{
+    background: rgb(240, 222, 247);
+    width: 450px;
+    height: 100px;
+}
+
+.about-box-2{
+    height: 100px;
+    width: 5px;
+    background: orangered;
+    margin-top: -24px;
+}
+
+.about-text-box span{
+    padding-left: 20px;
+}
+
+
+
+
+/*
+
+Contact US
+
+*/
+
+.contact-box{
+   margin-top: 150px;
+}
+
+.contact-card{
+    margin: 5px;
+}
+
+.contact-card img{
+    height: 100px;
+    width: 100px;
+    margin-left: 130px;
+    margin-top: 40px;
+}
+
+.contact-card h5{
+    font-size: 25px;
+    font-weight: 900;
+    margin-top: 10px;
+}
+
+.contact-card span{
+    padding-top: 40px;
+}
+
+/*
+
+Contact Us mail
+
+*/
+
+.contact-us{
+    height: 50vh;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.contact-box-us{
+    box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #ffffff;
+    border-radius: 5px;
+}
+
+.contact-input{
+    margin-left: 200px;
+}
+
+.contact-input input{
+      margin-left: 100px;
+       padding: 10px 40px;
+       margin: 70px;
+}
+
+
+
+
+
+
+
+
+.pathner-logo img{
+    height: 30px;
+    margin: 40px;
+}
+
+
+
+
+
+.box{
+    width: 100%;
+    height: 250px;
+    background-color: orangered;
+    z-index: -1;
+}
+
+.box-card{
+    margin-top: 70px;
+    margin-left: 10px;
+    background: red;
+}
+
+.box-card h5{
+    color: white;
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.box-card p{
+    color: white;
+}
+
+
+
+
+
+.box-button button{
+    display: inline-block;
+    transition: all 0.2s ease-in;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    color: #090909;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 110px;
+    background: #e8e8e8;
+    border: 1px solid #e8e8e8;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.box-button button:active{
+    color: white;
+    box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #ffffff;
+}
+
+.box-button button:before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) scaleY(1) scaleX(1.25);
+    top: 100%;
+    width: 140%;
+    height: 180%;
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 50%;
+    display: block;
+    transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+    z-index: -1;
+  }
+
+  .box-button button:after {
+    content: "";
+    position: absolute;
+    left: 55%;
+    transform: translateX(-50%) scaleY(1) scaleX(1.45);
+    top: 180%;
+    width: 160%;
+    height: 190%;
+    background-color: #000;
+    border-radius: 50%;
+    display: block;
+    transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+    z-index: -1;
+  }
+
+
+  .box-button button:hover {
+    color: #ffffff;
+    border: 1px solid #000;
+  }
+  
+  .box-button button:hover:before {
+    top: -35%;
+    background-color: #000;
+    transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+  }
+  
+  .box-button button:hover:after {
+    top: -45%;
+    background-color: #000;
+    transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+  }
+
+  .pro-move{
+    margin: 5px;
+  }
+
+
+  @media (max-width: 960px) {
+    .box-button button{
+        margin-top: 10px;
+    }
+  }
+
+  @media (max-width: 712px) {
+      .box{
+        width: 100%;
+        height: 300px;
+      }
+    
+  }
+
+
+  
+.new-letter{
+    background-color: navy;
+    margin-top: 20px;
+}
+
+.new-image img{
+    margin-top: 30px;
+}
+
+.new-image p{
+    color: white;
+    margin-top: 10px;
+    max-width: 300px;
+}
+
+.new-image a{
+    text-decoration: none;
+    color: white;
+    transition: all .5s ease-in-out;
+}
+
+.new-image a:hover{
+    color: orangered;
+}
+
+.company h4{
+    color: white;
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.company a{
+    text-decoration: none;
+    color: white;
+    transition: all .5s linear;
+}
+
+.company a:hover{
+    color: orangered;
+}
+
+.new-box h4{
+    margin-top: 30px;
+    color: white;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.new-box p{
+    color: white;
+}
+
+.new-box input{
+    padding: 20px 40px;
+    border: none;
+}
+
+.new-box button{
+    padding: 20px 20px;
+    margin-left: -59px;
+    border: none;
+    background: orangered;
+    color: white;
+    transition: .5s ease-in-out;
+}
+
+.new-box button:hover{
+    background: black;
+    color: white;
+}
+
+.new-box h5{
+    color: white;
+    font-weight: 500;
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+@media (max-width: 1036px) {
+    .author img{
+        margin-left: -45px;
+    }
+
+}
+
+@media (max-width: 760px) {
+    .author img{
+        margin-left: 150px;
+    }
+}
+
+@media (max-width: 584px) {
+    .select-icon i{
+        font-size: 20px;
+    }
+
+    .select-input input{
+        padding: 10px 10px;
+    }
+
+    .select-text span{
+       display: none;
+    }
+}
+
+
+@media (max-width: 760px) {
+    .contact-card img{
+        margin-left: 200px;
+    }
+}
